@@ -24,10 +24,8 @@ const swiper = new Swiper(".mySwiper", {
 });
 
 // Fotos dinâmicas
-const fotos = Array.from(
-  { length: 12 },
-  (_, i) => `imagens/anonovo (${i + 1}).jpg`,
-);
+const fotos = Array.from({ length: 12 }, (_, i) => `anonovo (${i + 1}).jpg`);
+
 const swiperContainer = document.getElementById("swiper-container");
 fotos.forEach((src, i) => {
   const slide = document.createElement("div");
