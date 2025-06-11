@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miih🤎</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Música oculta que toca automaticamente -->
+  <iframe src="https://www.youtube.com/embed/elZBsxX6SEs?autoplay=1&mute=1" allow="autoplay" style="width:0; height:0; border:0; visibility:hidden;"></iframe>
+
+  <!-- Título principal -->
+  <header>
+    <h1>Para Emilly, com Amor</h1>
+  </header>
+
+  <!-- Botão da declaração -->
+  <section class="my-12 text-center">
+    <button onclick="mostrarDeclaracao()" class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300">
+      💌 Ler Declaração
+    </button>
+
+    <div id="declaracao" class="mt-6 max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-md text-left text-gray-800 hidden whitespace-pre-line">
+      <p class="text-lg leading-relaxed">
+        Emilly,
+
+        Antes de tudo, me desculpa. Eu sei que essa carta deveria ter sido escrita à mão, e não assim, por um site ou digitada. Também peço desculpas pela minha letra (caso você esteja lendo isso manuscrito depois) e pelo texto que talvez esteja mal elaborado. Estou escrevendo de forma tardia, eu sei... Por mais que eu me cobrasse antes para fazer essa carta, eu acabei adiando. Mas, como dizem, antes tarde do que nunca, né? Kkkk
+
+        Vamos lá.
+
+        Eu queria te expressar o que estou sentindo em relação a tudo isso que estamos passando. Sei que estamos enfrentando uma fase difícil, que a confiança foi abalada... Mas também sei, com toda certeza, que vamos superar isso juntos.
+
+        Lembro que, uma vez, você me fez assistir ao seu filme favorito, Diário de uma Paixão. Naquele momento, eu gostei do filme, mas hoje... Hoje eu me vejo tentando me colocar naquela situação. Claro, a nossa história é diferente, mas tem semelhanças marcantes — como o fato de eu ser perdidamente apaixonado por você. Um dos meus maiores erros foi ter me afastado... Mas, no fim, a gente sempre acaba se procurando. É quase canônico isso, né? Kkkk
+
+        Outra semelhança: o Noah dizia que faria qualquer coisa por ela. E é assim que eu me sinto em relação a você. Emilly, se você me pedir qualquer coisa, qualquer desejo, eu juro que vou tentar realizar. Eu sinto prazer em te ver feliz. Em te ver sorrir. E faria de tudo para proteger esse sorriso.
+
+        A verdade, Emilly, é que o amor que eu sinto por você é infinito. Voltando ao seu filme, tem uma hora em que o Noah diz que não vai ser fácil. Que ambos têm defeitos, dores, mágoas… Mas que se amam, e vão fazer dar certo. E é isso que eu quero com você. Fazer dar certo.
+
+        Eu te disse que amo te servir — e é verdade. Eu não só construiria a casa que você sempre sonhou, mas te faria o meu lar. E, nesse lar, o pilar será Cristo. E nEle, eu te amo.
+
+        Com todo o meu amor, seu homem, com a alma serena por te amar, eternamente teu.
+        <!-- conteúdo da declaração -->
+      </p>
+    </div>
+  </section>
+
+  <!-- Seção de fotos -->
+  <section class="w-full max-w-5xl">
+    <h2 class="text-3xl font-bold text-center text-pink-600 mb-6">📸 Nossas Fotos</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" id="swiper-container"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Música adicional do Spotify -->
+  <section>
+    <h2>🎵 Music</h2>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5CoW23Ssu0DiJH01zeCZ8K?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </section>
+
+  <!-- Vales do Amor -->
+  <section class="w-full max-w-4xl">
+    <h2 class="text-3xl font-bold text-center mb-8 text-pink-600">🎁 Vales do Amor</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="vales-container"></div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
